@@ -1,0 +1,150 @@
+@media screen and (max-width: 400px) {
+    
+    *{
+        overflow-x: hidden;
+    }
+
+    #nav{
+        display: none;
+        height: 300px;
+        background: red;
+        position: relative;
+    }
+
+    #nav ul{
+        width: 100%;
+    }
+
+    #nav ul li{
+        width: 100%;
+        text-align: center;
+        float: right;
+    }
+
+    #samu{
+        width: 100%;
+        text-align: center;
+        margin-left: -16px;
+    }
+
+    #btn{
+        display: block;
+        font-size: 30px;
+        float: right;
+        z-index: 200;
+        position: fixed;
+    }
+
+    #home{
+        display: block;
+        top: 0;
+    }
+
+    #aos{
+        /* background: grey; */
+        z-index: 2;
+    }
+
+    #aostitle{
+        overflow: hidden;
+        margin-top: -100px;
+    }
+
+    #home img{
+        display: inline;
+        display: block;
+        width: 200px;
+        z-index: 1;
+        margin-top: 150px;
+    }
+
+    #home h1{
+        display: inline;
+        margin-left: -20px;
+        font-size: 30px;
+        margin-top: -100px;
+        position: relative;
+        z-index: 200;
+        overflow-x: visible;
+        width: 200px;
+    }
+
+    #about img{
+        display: inline;
+        display: block;
+        width: 200px;
+        z-index: 1;
+        margin-top: 150px;
+        margin-left: 95px;
+    }
+
+    #about h1{
+        margin-left: 40%;
+        display: inline;
+        font-size: 30px;
+        margin-top: -100px;
+        position: relative;
+        z-index: 200;
+        overflow-x: visible;
+        width: 200px;
+    }
+
+    .about__text{
+        overflow: hidden;
+        margin-left: 33%;
+        font-size: 30px;
+        margin-top: 150px;
+        position: relative;
+        z-index: 200;
+        overflow-x: visible;
+        width: 200px;
+    }
+
+    .skills__subtitle{
+        margin-left: 30px;
+    }
+
+    .skills__text{
+        margin-left: 50px;
+        width: 300px;
+    }
+
+    #html5, #css3, #javascript, #ux_ui{
+        width: 50%;
+        margin-left: 70px;
+    }
+
+    #linehtml5 {
+        width: 50%;
+        margin-left: 73px;
+    }
+
+    #linecss3{
+        width: 45%;
+        margin-left: 73px;
+    }
+
+    #linejavascript{
+        width: 35%;
+        margin-left: 73px;
+    }
+
+    #lineux_ui{
+        width: 45%;
+        margin-left: 73px;
+    }
+
+    form input{
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+    form textarea{
+        margin-left: 80px;
+    }
+
+
+    .fixed{
+        z-index: 1000;
+    }
+}
